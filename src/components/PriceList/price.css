@@ -1,0 +1,43 @@
+.panelContainer{
+    width: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.panelContainer .head{
+    background-color: #ccc;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+}
+
+.panelContainer .panelcontainer{
+    border: 1px solid #ccc;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 10px;
+}
+.panelContainer .panelcontainer .price{
+    font-size: 23px;
+}
+.panelContainer .panelcontainer .detaillist{
+    font-size: small;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px 0px;
+}
+.panelContainer .panelcontainer .btnContainer{
+    
+}
+.pricelist{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+}

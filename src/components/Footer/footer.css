@@ -1,0 +1,26 @@
+.footerContainer{
+    display: flex;
+    justify-content: center;
+    padding: 2% 0px;
+}
+.linedivder{
+    margin: 30px 20%;
+    height: 1px;
+    background-color: #ccc;
+}
+.logoContainer img{
+    width: 20px;
+}
+.linkContainer{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    align-items: flex-start;
+}
+.heading{
+    color: #000;
+    margin-bottom: 10px;
+}
+.linktext{
+    font-size: small;
+}
